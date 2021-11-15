@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #4d4d4d;
+    color: #e68a00;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #333333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navitem {
+    padding: 10px;
+}
+.navitem a {
+    color:white;
+    text-decoration: none;
+}
+main {
+    padding: 10px;
+}
+footer {
+    background-color: #4d4d4d;
+    padding: 10px;
+    color: white;
+    margin-top: auto;
+    
+}
+.infobox {
+    background-color: #e68a00;
+    padding: 10px;
+}
+@media (min-width: 768px) {
+    .navitem {
+        display: inline;
+    }
+    .modpack-info {
+        width: 33.3%;
+        padding: 10px;
+        float: left;
+    }
+    .modpack-desc {
+        width: 33.4%;
+        padding: 10px;
+        float: left;
+    }
+    .modpack-gallery {
+        width: 33.3%;
+        padding: 10px;
+        float: left;
+    }
+}
+h1, h2, h3,h4 {
+    font-family: 'Orbitron', Verdana, sans-serif;
+}
